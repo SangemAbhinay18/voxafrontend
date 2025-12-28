@@ -8,7 +8,7 @@ import { io } from "socket.io-client";
 const SOCKET_URL =
   import.meta.env.MODE === "development"
     ? "http://localhost:3000"
-    : "https://voxaf-1.onrender.com";
+    : "https://voxa-f.vercel.app/";
 
 export const useAuthStore = create((set, get) => ({
   authUser: null,
