@@ -7,7 +7,7 @@ import { io } from "socket.io-client";
 // ✅ Correct backend socket URL (Render deployment)
 const SOCKET_URL =
   import.meta.env.MODE === "development"
-    ? "http://localhost:3000"
+    ? "http://localhost:5173"
     : "https://voxa-f.vercel.app/";
 
 export const useAuthStore = create((set, get) => ({
